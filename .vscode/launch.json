@@ -1,0 +1,18 @@
+{
+     "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MainAutomovil",
+            "request": "launch",
+            "mainClass": "MainAutomovil",
+            "projectName": "prreparacion para IP II_7daaecf5"
+        },
+        {
+            "name": "Attach by com.sun.jdi.SharedMemoryListen",
+            "type": "jdk",
+            "request": "attach",
+            "listen": "true"
+        }
+    ]
+}
