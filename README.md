@@ -6,7 +6,7 @@
 
 ## 📖 ¿Qué encontrarás aquí?
 
-Este material está organizado en **8 días de estudio intensivo**, cada uno cubriendo un tema fundamental de POO. Cada día incluye:
+Este material está organizado en **9 días de estudio intensivo**, cada uno cubriendo un tema fundamental de POO. Cada día incluye:
 
 - 🎯 **Objetivos claros** de aprendizaje.
 - 📚 **Teoría detallada** con analogías y explicaciones profundas.
@@ -20,7 +20,7 @@ Los archivos están escritos en **Markdown** y optimizados para **Obsidian**, us
 
 ---
 
-## 🗓️ Distribución de los 8 Días
+## 🗓️ Distribución de los 9 Días
 
 | Día | Tema | Contenido principal |
 |:---:|:---|:---|
@@ -32,6 +32,7 @@ Los archivos están escritos en **Markdown** y optimizados para **Obsidian**, us
 | **6** | Genericidad | Clases genéricas, `Lista<T>`, wrappers, tipos acotados |
 | **7** | Excepciones | `try-catch-finally`, `throw`, `throws`, excepciones propias |
 | **8** | Ficheros | Texto, binario, serialización, `Serializable` |
+| **9** | GUI (Swing) | `JFrame`, componentes, layouts, eventos, `ActionListener` |
 
 ---
 
@@ -54,14 +55,16 @@ Los archivos están escritos en **Markdown** y optimizados para **Obsidian**, us
 4. **Resuelve los ejercicios** propuestos (si los hay) o inventa los tuyos.
 5. **Marca el checklist** al final del día para verificar que dominas el tema.
 6. **Repasa los días anteriores** antes de avanzar.
+7. **Practica la GUI en el IDE**: ejecuta las ventanas para ver cómo funcionan.
 
 ### 📌 Para aprender POO desde cero
 
-1. **Sigue el orden de los días** (1 → 8); cada uno construye sobre el anterior.
+1. **Sigue el orden de los días** (1 → 9); cada uno construye sobre el anterior.
 2. **No saltes la teoría**: las analogías y explicaciones son clave.
 3. **Practica con código real**: crea tus propias clases y objetos.
 4. **Consulta las tablas resumen** cuando olvides algo.
 5. **Vuelve al Cheatsheet** antes de cada sesión de práctica.
+6. **Para GUI, experimenta**: cambia tamaños, colores, agrega más botones.
 
 ---
 
@@ -79,6 +82,7 @@ Los archivos están escritos en **Markdown** y optimizados para **Obsidian**, us
 ├── 📄 06 - Día 6 - Genericidad.md
 ├── 📄 07 - Día 7 - Excepciones.md
 ├── 📄 08 - Día 8 - Ficheros.md
+├── 📄 09 - Día 9 - GUI (Swing).md
 ├── 📄 98 - Tablas Resumen.md        ← Comparativas y tablas clave
 └── 📄 99 - Cheatsheet.md            ← Referencia rápida de sintaxis
 ```
@@ -118,6 +122,7 @@ Los archivos están escritos en **Markdown** y optimizados para **Obsidian**, us
 | **JDK 17+** | Compilar y ejecutar Java |
 | **Git** | Control de versiones (opcional) |
 | **Extension Pack for Java** | Soporte de Java en VSCode |
+| **Scene Builder** (opcional) | Diseño visual de GUIs JavaFX |
 
 ---
 
@@ -133,6 +138,7 @@ Puedes usar esta tabla para marcar tu avance. En Obsidian, los checkboxes son in
 - [ ] Día 6 - Genericidad
 - [ ] Día 7 - Excepciones
 - [ ] Día 8 - Ficheros
+- [ ] Día 9 - GUI (Swing)
 - [ ] Repaso general (Tablas Resumen + Cheatsheet)
 
 ---
@@ -147,6 +153,23 @@ Puedes usar esta tabla para marcar tu avance. En Obsidian, los checkboxes son in
 6. **No te saltes las excepciones**: son muy comunes en los exámenes.
 7. **Domina `Lista<T>`**: es la base de casi todos los ejercicios.
 8. **Practica con proyectos reales**: los ejercicios de examen son mini-sistemas.
+9. **Para GUI, memoriza la plantilla**: `JFrame`, componentes, `ActionListener`.
+10. **No olvides `setVisible(true)`**: es el error más común en GUI.
+
+---
+
+## 🖥️ Consejos Específicos para GUI
+
+1. **Memoriza la estructura básica**: `JFrame` → componentes → eventos.
+2. **Usa `SwingUtilities.invokeLater`** para lanzar la ventana.
+3. **Siempre `setVisible(true)` al final** del constructor.
+4. **Centra la ventana** con `setLocationRelativeTo(null)`.
+5. **Usa `try-catch`** al parsear datos de campos de texto.
+6. **Separa la lógica de la interfaz**: los eventos llaman a métodos privados.
+7. **Conoce los layouts**: `FlowLayout`, `BorderLayout`, `GridLayout`.
+8. **Practica con formularios**: campos de texto, botones, etiquetas.
+9. **No olvides `JScrollPane`** para áreas de texto grandes.
+10. **Prueba siempre en tu IDE** antes del examen.
 
 ---
 
@@ -157,16 +180,16 @@ Puedes usar esta tabla para marcar tu avance. En Obsidian, los checkboxes son in
 | *Introducción a la Programación Orientada a Objetos* | Timothy Budd | Conceptos teóricos |
 | *Análisis y Diseño Orientado a Objetos* | Grady Booch | UML y diseño |
 | *UML y Patrones* | Craig Larman | Patrones GRASP |
-| *Big Java* | Cay Horstmann | Ejemplos prácticos |
-| *Java How to Program* | Deitel & Deitel | Referencia completa |
+| *Big Java* | Cay Horstmann | Ejemplos prácticos (incluye GUI) |
+| *Java How to Program* | Deitel & Deitel | Referencia completa (incluye GUI) |
 | *Manual de la asignatura IP II* | Colectivo de autores | Material oficial |
+| *Programación Java 2, J2SE 1.4* | John Zukowski | GUI con Swing |
 
 ---
 
-
 ## 🏁 Última Nota
 
-Este material ha sido diseñado con cariño y detalle para que **aprendas POO de verdad**, no solo para aprobar un examen. Si dominas estos 8 días, no solo pasarás la suficiencia: **tendrás una base sólida para programar en Java durante toda tu carrera**.
+Este material ha sido diseñado con cariño y detalle para que **aprendas POO de verdad**, no solo para aprobar un examen. Si dominas estos 9 días, no solo pasarás la suficiencia: **tendrás una base sólida para programar en Java durante toda tu carrera**.
 
 > *"La programación no se aprende leyendo, se aprende escribiendo código."*
 
